@@ -1,281 +1,42 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html>
+<head>
 <meta charset="utf-8">
-<meta name="keywords" content="WePayUI,WeUI,Î¢ĞÅÖ§¸¶,Î¢ĞÅÖ§¸¶ËØ²Ä,¹æ·¶">
-<meta name="description" content="WePayUI ÊÇ»ùÓÚ WeUI ÍØÕ¹µÄ³¡¾°×é¼ş£¬°üº¬³£ÓÃ×é¼ş¼°H5Ä£°å£¬·½±ã·şÎñÉÌ¡¢ÉÌ¼ÒµÈ¿ìËÙÊ¹ÓÃÎ¢ĞÅÖ§¸¶¹Ù·½Æ·ÅÆ¹æ·¶£¬ÌáÉı¿ª·¢Ğ§ÂÊ¡£">
 <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 <meta content="yes" name="apple-mobile-web-app-capable">
 <meta content="black" name="apple-mobile-web-app-status-bar-style">
 <meta content="telephone=no" name="format-detection">
 <meta content="email=no" name="format-detection">
-<title>WePayUI - Î¢ĞÅÖ§¸¶</title>
-<link rel="icon" href="img/wepaylogo.ico">
-<link rel="stylesheet" href="https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css?=20170227">
-<link rel="stylesheet" href="css/index.min.css">
-<script type="text/javascript">
-var TA_STATS_ARGS = {
-rate: 1,
-projectID: 436,
-channelID:764,
-pageID: 840,
-debug: false
-}
-var _speedMark = new Date();
-</script>
+<link rel="stylesheet" href="css/wepayui.min.css">
+<link rel="stylesheet" href="css/index.css">
+<title>è¾“å…¥é‡‘é¢ä»˜æ¬¾</title>
 </head>
 <!-- 
-	Í¨ÓÃËµÃ÷£º 
-	1.Ä£¿éµÄÒş²ØÌí¼Óclass:hide;
-	2.body±êÇ©Ä¬ÈÏ°ó¶¨ontouchstartÊÂ¼ş£¬¼¤»îËùÓĞ°´Å¥µÄ:activeĞ§¹û
+	é€šç”¨è¯´æ˜ï¼š 
+	1.æ¨¡å—çš„éšè—æ·»åŠ class:hide;
+	2.bodyæ ‡ç­¾é»˜è®¤ç»‘å®šontouchstartäº‹ä»¶ï¼Œæ¿€æ´»æ‰€æœ‰æŒ‰é’®çš„:activeæ•ˆæœ
 -->
-<body ontouchstart="">
-
-<article class="wepay" id="wepayWrapper">
-    <!--Í·²¿µ¼º½À¸ [[ -->
-    <header class="wepay-hd" id="header">
-    <div class="wepay-hd-logo">
-        <a href="index.html" title="WePayUI" id="home" class="wepay-hd-link"><img alt="WePayUI" src="img/wepayui.png" class="wepay-hd-img" width="150"></a>
-    </div>
-    <a href="javascript:;" class="wepay-hd-list" id="wepay_hd_list">
-        <i></i>
-    </a>
-    <div class="wepay-hd-ul">
-    	<ul class="wepay-hd-ul-main">
-
-          <li><a href="https://github.com/wepayui" target="_blank" data-stat="1817">Github</a></li>
-          <li><a href="https://github.com/wepayui/wepayui/archive/master.zip" target="_blank" data-stat="1818">Download</a></li>
-                  <li><a href="https://github.com/wepayui/wepayui-design" target="_blank" data-stat="1968">Éè¼ÆËØ²Ä</a></li>
-          <li><a href="https://wj.qq.com/s/877757/a3ec" target="_blank" data-stat="1819">Ê¹ÓÃ·´À¡</a></li>
-	    </ul>
-    </div>
-</header>
-    <!--Í·²¿µ¼º½À¸ ]] -->
-    
-    <!--ÄÚÈİ [[ -->
-    <div class="wepay-bd">
-        <div class="wepay-bd-frame">
-            <!--×ó²Ëµ¥ [[ -->
-            <nav class="wepay-nav wepay-col-sm-24 wepay-col-md-6 wepay-col-lg-4" id="nav" style="display: none;">
-    <ul class="wepay-nav-ul wepay-menu-inline" tabindex="0">
-        <li class="wepay-menu-item wepay-menu-item-selected">
-            <a href="#/start/" hash-data="1836">Æğ²½</a>
-        </li>
-        <li class="wepay-menu-submenu wepay-menu-submenu-open">
-            <div class="wepay-menu-submenu-title">
-                <h4>×é¼ş</h4>
-            </div>
-            <ul class="wepay-menu wepay-menu-inline wepay-menu-sub" role="menu">
-                <li class="wepay-menu-item-group">
-                    <div class="wepay-menu-item-group-title">Basic</div>
-                    <ul class="wepay-menu-item-group-list">
-                        <li class="wepay-menu-item">
-                            <a href="#/font/" hash-data="1820">           
-                                <span>Font</span>
-                                <span class="chinese">×ÖÌå¹æ·¶</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/logo/" hash-data="1821">
-                                <span>Logo</span>
-                                <span class="chinese">Î¢ĞÅÖ§¸¶±êÖ¾</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/icon/" hash-data="1822">
-                                <span>Icon</span>
-                                <span class="chinese">Í¼±ê</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/button/" hash-data="1823">
-                                <span>Button</span>
-                                <span class="chinese">°´Å¥</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/list/" hash-data="1824">
-                                <span>List</span>
-                                <span class="chinese">ÁĞ±í</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/input/" hash-data="1825">
-                                <span>Input</span>
-                                <span class="chinese">±íµ¥</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/dialog/" hash-data="1826">
-                                <span>Dialog</span>
-                                <span class="chinese">¶Ô»°¿ò</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/flow/" hash-data="1826">
-                                <span>Flow</span>
-                                <span class="chinese">Á÷³Ì</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li class="wepay-menu-submenu wepay-menu-submenu-open">
-            <div class="wepay-menu-submenu-title">
-                <h4>³¡¾°</h4>
-            </div>
-            <ul class="wepay-menu wepay-menu-inline wepay-menu-sub" role="menu">
-                <li class=" wepay-menu-item-group">
-                    <div class="wepay-menu-item-group-title">ÊÕ¸¶¿î</div>
-                    <ul class="wepay-menu-item-group-list">
-                        <li class="wepay-menu-item">
-                            <a href="#/pay_scan_code/" hash-data="1827">
-                                <span>É¨ÂëÖ§¸¶</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/pay_select_money/" hash-data="1828">
-                                <span>Ñ¡Ôñ½ğ¶î¸¶¿î</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/pay_input_money/" hash-data="1829">
-                                <span>ÊäÈë½ğ¶î¸¶¿î</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/pay_detail/" hash-data="1830">
-                                <span>ÊÕ¸¶¿îÏêÇé</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/pay_record/" hash-data="1831">
-                                <span>ÊÕ¸¶¿î¼ÇÂ¼</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="wepay-menu-item-group">
-                    <div class="wepay-menu-item-group-title">ĞĞÒµ½â¾ö·½°¸</div>
-                    <ul class="wepay-menu-item-group-list">
-                        <li class="wepay-menu-item">
-                            <a href="#/profession_pay/" hash-data="1832">
-                                <span>½É·Ñ</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/profession_traffic/" hash-data="1833">
-                                <span>¿ÍÔË</span>
-                            </a>
-                        </li>
-                        <li class="wepay-menu-item">
-                            <a href="#/profession_hospital_card/" hash-data="1834">
-                                <span>Ò½Ôº</span>
-                                <span class="chinese">Ò½ÉúÃûÆ¬</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</nav>
-            <!--×ó²Ëµ¥ ]] -->
-
-            <!--Ò³Ãæ [[ -->
-            <div class="wepay-container wepay-col-sm-24 wepay-col-md-18 wepay-col-lg-20">
-                <div class="" id="app"><!-- [[Ê×Ò³ -->
-<article class="wepay-article" id="start">
-    <h1>
-        ¼ò½é
-    </h1>
-    <section>
-        <p>WePayUI ÓÉÎ¢ĞÅÖ§¸¶Îª·şÎñÉÌºÍÉÌ»§Á¿Éí´òÔì£¬ÓÃÓÚ¿ìËÙÖÆ×÷·ûºÏÎ¢ĞÅÖ§¸¶¹æ·¶µÄWebÒ³Ãæ£¬ÌáÉı¿ª·¢Ğ§ÂÊ¡£WePayUI »ùÓÚ <a href="https://github.com/weui/weui" target="_blank">WeUI</a> ÍØÕ¹£¬°üº¬»ù´¡×é¼şºÍĞĞÒµ³¡¾°¡£</p>
-    </section>
-    <section>
-        <h2>¿ìËÙÊ¹ÓÃ</h2>
-        <p>ÎÒÃÇÔÚÒ³ÃæÖĞÌá¹©ÁË<soan class="green">¸´ÖÆ´úÂë</soan>µÄ¹¦ÄÜ£¬Äú¿ÉÒÔ<span class="green">ÓÃÍê¼´×ß</span>¡£»òÖ±½ÓÒıÓÃ CDN ×ÊÔ´¡£</p>
-        <h3>v0.1.1</h3>
-        <p><span data-stat="1967" class="green copy-html" data-clipboard-text="https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css">https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css</span></p>
-        <p><span data-stat="1967" class="green copy-html" data-clipboard-text="https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.css">https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.css</span></p>
-    </section>
-    <section>
-        <h2>°²×°Ô´Âë</h2>
-        <p>ÎÒÃÇÌá¹©ÁËÔ´Âë·½±ãÓĞÒ»¶¨¿ª·¢ÄÜÁ¦µÄ³ÌĞòÔ±Ê¹ÓÃ£¬ÆäÖĞ¿ª·¢»·¾³°üº¬Less¡¢JavaScript¡¢×ÖÌåÎÄ¼şµÄÔ´Âë£¬Ê¹ÓÃ <code>gulp</code> ×÷Îª±àÒëÏµÍ³¡£</p>
-        <h3>
-            <span>github</span>
-        </h3>
-            <p>
-                <a href="https://github.com/wepayui/wepayui/archive/master.zip" target="_blank" data-stat="1644">wepayui.zip</a>
-            </p>
-        <h3>
-            <span>npm</span>
-        </h3>
-        <pre><code class="hljs github coffeescript">$ <span class="hljs-built_in">npm</span> install wepayui</code></pre>
-    </section>
-    <section>
-        <h2>
-            <span>¶¨ÖÆ</span>
-        </h2>
-        <p>
-            ÎÒÃÇÌá¹©ÁË<a href="https://github.com/wepayui/wepayui_build_tool" target="_blank" data-stat="1645">¿Í»§¶Ë¹¹½¨¹¤¾ß</a>£¬Äã¿ÉÒÔ°´ĞèÑ¡Ôñ×é¼şºÍ³¡¾°×ÔÖú¹¹½¨¡£
-        </p>
-        <p>
-            <img src="img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
-        </p>  
-    </section>
-    <section>
-        <h2>·´À¡</h2>
-        <p>
-            Ê¹ÓÃWePayUI¹ı³ÌÓĞÈÎºÎÒâ¼û£¬Çë½«ÄãµÄ¸ĞÊÜºÍ½¨Òé¸æËßÎÒÃÇ¡£
-        </p>
-        <ul>
-            <li>
-            <p>
-                <a href="https://wj.qq.com/s/877757/a3ec" target="_blank" data-stat="1644">https://wj.qq.com/s/877757/a3ec</a>
-            </p>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h2>Ô¤ÀÀ</h2>
-        <div class="pic-plus">
-            <img src="img/code.png" width="250" height="250">
+<body ontouchstart class="weui-wepay-pay-wrap">
+<div class="weui-wepay-pay">
+    <div class="weui-wepay-pay__bd">
+        <div class="weui-wepay-pay__inner">
+            <h1 class="weui-wepay-pay__title">ä»˜æ¬¾é‡‘é¢(å…ƒ)</h1>
+            <div class="weui-wepay-pay__inputs"> <strong class="weui-wepay-pay__strong">ï¿¥</strong>
+                <input type="number" class="weui-wepay-pay__input" placeholder="è¯·è¾“å…¥é‡‘é¢"></div>
+            <div class="weui-wepay-pay__intro">æœ€å¤šå¯è¾“å…¥é‡‘é¢500å…ƒ</div>
         </div>
-    </section>
-</article>
-<!-- Ê×Ò³]] -->
-<script type="text/javascript">
-wepay.spaInit();
-</script>
+
+    </div>
+    <div class="weui-wepay-pay__ft">
+        <p class="weui-wepay-pay__info">æ”¯ä»˜é‡‘é¢ç»™å•†æˆ·</p>
+        <div class="weui-wepay-pay__btn">
+            <a href="javascript:;" class="weui-btn weui-btn_primary">ç«‹å³æ”¯ä»˜</a>
+        </div>
+    </div>
 </div>
-                <!-- ³õÊ¼»¯¼ÓÔØ²ã[[ -->
-                <div class="wepay-loading-wrap hide" id="wepayLoaidng">
-                    <div class="wepay-loading">
-                        <img src="img/wepaylogo.png" alt="·ÖÏíÍ¼±ê" class="wepay-loading-ico" width="80" height="80">
-                        <p class="wepay-loading-txt">Loading...</p>
-                    </div>
-                </div>
-                <!-- ³õÊ¼»¯¼ÓÔØ²ã]] -->
-            </div>
-            <!--Ò³Ãæ ]] -->
-        </div>
-    </div>
-    <!-- ÄÚÈİ [[ -->
+<div class="weui-wepay-logos weui-wepay-logos_ft">
+    <img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_gray.svg" alt="" height="16">
+</div>
+</body>
+</html>
 
-    <!-- Ò³Ãæµ×²¿ [[ -->
-    <footer class="wepay-ft" id="footer">
-    <p>
-        ?2017 Tencent Powered by <span class="green">Wechat Pay Official Team</span>
-    </p>
-</footer>
-    <!-- Ò³Ãæµ×²¿ ]] -->
-</article>
-
-
-<script type="text/javascript" src="https://act.weixin.qq.com/static/cdn/js/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://act.weixin.qq.com/static/cdn/js/sammy/0.7.4/sammy.min.js"></script>
-<script type="text/javascript" src="https://act.weixin.qq.com/static/cdn/js/highlight/9.8.0/highlight.min.js"></script>
-<script type="text/javascript" src="https://act.weixin.qq.com/user_analysis/2.0/lib-min-2.1.js"></script>
-<script type="text/javascript" src="js/index.min.js"></script>
-<span style="border-radius: 3px; text-indent: 20px; width: auto; padding: 0px 4px 0px 0px; text-align: center; font: normal normal bold normal 11px/20px &quot;Helvetica Neue&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255); background: rgb(189, 8, 28) url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjYmQwODFjIj48L3BhdGg+PC9nPjwvc3ZnPg==&quot;) no-repeat scroll 3px 50% / 14px 14px; position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: medium none; top: 883px; left: 40px;">Save</span><span style="width: 24px; height: 24px; background: rgba(0, 0, 0, 0.4) url(&quot;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxtYXNrIGlkPSJtIj48cmVjdCBmaWxsPSIjZmZmIiB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHJ4PSI2IiByeT0iNiIvPjxyZWN0IGZpbGw9IiMwMDAiIHg9IjUiIHk9IjUiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgcng9IjEiIHJ5PSIxIi8+PHJlY3QgZmlsbD0iIzAwMCIgeD0iMTAiIHk9IjAiIHdpZHRoPSI0IiBoZWlnaHQ9IjI0Ii8+PHJlY3QgZmlsbD0iIzAwMCIgeD0iMCIgeT0iMTAiIHdpZHRoPSIyNCIgaGVpZ2h0PSI0Ii8+PC9tYXNrPjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNmZmYiIG1hc2s9InVybCgjbSkiLz48L3N2Zz4=&quot;) no-repeat scroll 50% 50% / 14px 14px; position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: medium none; border-radius: 12px; top: 881px; left: 762px;"></span><div class="tips" style="display: none;">? ¸´ÖÆ³É¹¦</div></body></html>
